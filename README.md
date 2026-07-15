@@ -38,17 +38,16 @@ Tone mapping evaluation is difficult because of the substantial differences in a
 
 **Dependencies**
 
-The code in this repository relies on [ColorVideoVDP](https://github.com/gfxdisp/ColorVideoVDP). Please follow their installation instructions.
+The code in this repository relies on [ColorVideoVDP](https://github.com/gfxdisp/ColorVideoVDP) (version>=0.6.0). Please follow their installation instructions.
 
-Example metrics are provided by `piq` and `pyiqa`. Install these as follows:
+Example metrics are provided by `piq`. Install as follows:
 ```
 pip install piq
-pip install pyiqa
 ```
 
 **Data**
 
-User study stimuli, raw data and results scaled to Just-Objectionable-Difference (JOD) units for our work can be found at [TBD]().
+User study stimuli, raw data and results scaled to Just-Objectionable-Difference (JOD) units for our work can be found [here](https://www.repository.cam.ac.uk/items/2f7c9a2a-ffe5-4d61-92b2-f6cb4928f119).
 
 **Code**
 
