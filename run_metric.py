@@ -2,8 +2,6 @@ import torch
 from piq import haarpsi, multi_scale_ssim
 from tqdm import tqdm
 
-import sys 
-sys.path.append("../ColorVideoVDP/")
 import pycvvdp
 from pycvvdp.utils import PU
 
